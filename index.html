@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Nectar</title>
+</head>
+<body>
+  <div class="layout">
+
+
+    <div class="left-pannel pannel-reset">
+      <div class="pannel-close">
+        <i class="fas fa-arrow-left"></i>
+      </div>
+      <div class="pannel-content">
+        
+        <!-- #workspace-select -->
+        <div id="workspace-select">
+          <h2 class="pannel-title">Select Workspace</h2>
+          <div class="workspace-group">
+            <h3>Sprout Coffee Co.</h3>
+            <a href="#" class="workspace active">
+              <div class="workspace-image"></div>
+              <div class="workspace-info">
+                <h4>Sprout Coffee Corporate</h4>
+                <p>12 Profiles | 6 Users</p>
+              </div>
+            </a>
+            <a href="#" class="workspace">
+              <div class="workspace-image"></div>
+              <div class="workspace-info">
+                <h4>Sprout Coffee Chicago</h4>
+                <p>3 Profiles | 5 Users</p>
+              </div>
+            </a>
+            <a href="#" class="workspace">
+              <div class="workspace-image"></div>
+              <div class="workspace-info">
+                <h4>Sprout Coffee East Coast</h4>
+                <p>4 Profiles | 4 Users</p>
+              </div>
+            </a>
+            <a href="#" class="workspace">
+              <div class="workspace-image"></div>
+              <div class="workspace-info">
+                <h4>Sprout Coffee West Coast</h4>
+                <p>3 Profiles | 2 Users</p>
+              </div>
+            </a>
+          </div>
+          <div class="workspace-group">
+            <h3>Sprout Social</h3>
+            <a href="#" class="workspace">
+              <div class="workspace-image"></div>
+              <div class="workspace-info">
+                <h4>Sprout Social</h4>
+                <p>6 Profiles | 6 Users</p>
+              </div>
+            </a>
+            <a href="#" class="workspace">
+              <div class="workspace-image"></div>
+              <div class="workspace-info">
+                <h4>Sprout Support</h4>
+                <p>2 Profiles | 12 Users</p>
+              </div>
+            </a>
+          </div>
+          <div class="workspace-group">
+            <h3>Personal Mode</h3>
+            <a href="#" class="workspace">
+              <div class="workspace-image"></div>
+              <div class="workspace-info">
+                <h4>Nathan Sanders</h4>
+                <p>3 Profiles | 1 User</p>
+              </div>
+            </a>
+          </div>
+        </div><!-- End #workspace-select -->
+
+        <!-- #search -->
+        <div id="search">
+          <!-- <h2 class="pannel-title">Search</h2> -->
+          <input class="input input-large" type="search" placeholder="Search Sprout..." />
+        </div><!-- End #search-->
+
+        <!-- #notifications -->
+        <div id="notifications">
+          <!-- <h2 class="pannel-title">0 Notifications</h2> -->
+          <div class="tab-group col-2">
+              <div class="tab col active">Notifications 0</div>
+              <div class="tab col">To-Dos 0</div>
+            </div>
+        </div><!-- End #notifications-->
+
+        <!-- #compose -->
+        <div id="compose">
+          <div class="tab-group col-3">
+            <div class="tab col active">Send Now</div>
+            <div class="tab col">Schedule</div>
+            <div class="tab col">Queue</div>
+          </div>
+          <div class="compose-box active">
+            <div class="profile-picker">
+              <div class="profile-image"></div>
+              <div class="network"><i class="fab fa-twitter-square twitter"></i></div>
+              <h4>Sprout Coffee Co.</h4>
+              <span class="handle">@mysproutcoffee</span>
+              <i class="fas fa-angle-down carrot"></i>
+            </div>
+            <div class="message-input">
+              <input class="input input-large no-border-large" type="text" placeholder="Compose a new message." />
+            </div>
+            <div class="actions-row">
+              <div class="item"><div></div></div>
+              <div class="item"><div></div></div>
+              <div class="item"><div></div></div>
+              <div class="item"><div></div></div>
+              <div class="item"><div></div></div>
+              <div class="item"><div></div></div>
+              <div class="character-count">280</div>
+            </div>
+          </div>
+          <a href="#" class="primary-button">Send Now</a>
+        </div><!-- End #compose -->
+        
+      </div>
+    </div><!-- End .left-pannel -->
+
+
+
+
+    <div class="main-nav">
+      <div class="branding"></div>
+      <div class="workspace open-pannel"><i class="fas fa-spa"></i><div class="tooltip">Sprout Coffee Corporate</div></div>
+      <ul class="sections">
+        <li><a href="#"><i class="fas fa-tachometer-alt item"></i><div class="tooltip">Dashboard</div></a></li>
+        <li><a href="#" class="active"><i class="fas fa-inbox item"></i><div class="tooltip">Inbox</div></a></li>
+        <li><a href="#"><i class="fas fa-thumbtack item"></i><div class="tooltip">Tasks</div></a></li>
+        <li><a href="#"><i class="fas fa-list-ul item"></i><div class="tooltip">Feeds</div></a></li>
+        <li><a href="#"><i class="fas fa-paper-plane item"></i><div class="tooltip">Publishing</div></a></li>
+        <li><a href="#"><i class="fas fa-robot item"></i><div class="tooltip">Bots</div></a></li>
+        <li><a href="#"><i class="fas fa-chart-pie item"></i><div class="tooltip">Reporting</div></a></li>
+        <li><a href="#"><i class="fas fa-align-center item rotate-90"></i><div class="tooltip">Listening</div></a></li>
+      </ul>
+      <ul class="user-actions">
+        <li><div class="action open-pannel search-launch"><i class="fas fa-search item"></i><div class="tooltip">Search</div></div></li>
+        <li><div class="action open-pannel notifications-launch"><i class="fas fa-bell item"></i><div class="tooltip">Notifications</div></div></li>
+        <li><div class="action open-pannel compose-launch"><i class="fas fa-pen-square item"></i><div class="tooltip">Compose</div></div></li>
+        <li><div class="action user"><span></span><div class="tooltip">Hi, Nathan</div></div></li>
+      </ul>
+    </div> <!-- End .main-nav -->
+    <div class="secondary-nav">
+      <div class="sec-staging">
+        <div class="nav-list">
+          <div class="list-container">
+            <a href="#" class="list-item single active-list">Smart Inbox</a>
+            <a href="#" class="list-item group" id="pG1">Custom Inbox Views<i class="fas fa-arrow-right arrow a-hidden"></i></a>
+            <a href="#" class="list-item single">Saved Messages</a>
+            <a href="#" class="list-item single">Tagged Messages</a>
+          </div>
+        </div>
+    
+        <div class="nav-list">
+          <div class="back-container">
+            <div class="list-item back"><i class="fas fa-arrow-left arrow"></i>Back</div>
+          </div>
+          <div class="list-container dynamic">
+            <!-- Dynamic Categories -->
+          </div>
+        </div>
+      </div>
+
+      <div class="secondary-nav-actions">
+        <a href="#" class="trial-help">24 Days Remaining</a>
+        <a href="#" class="add-new"><i class="fas fa-plus"></i> New Inbox</a>
+      </div>
+    </div><!-- End .secondary-nav -->
+
+    <div class="content message-stream loading">
+
+      <div class="stream-toolbar">
+        <i class="fas fa-ellipsis-h icon-button"></i>
+        <div class="search search-large">
+          <i class="fas fa-search search-icon"></i>
+          <input class="input input-large no-border-large" type="search" placeholder="Search Messages..." />
+        </div>
+      </div>
+
+      <div class="message">
+          <div class="msg-header">
+            <div class="loader profile"></div>
+            <div class="msg-info">
+              <div class="loader text medium"></div>
+              <div class="loader text medium"></div>
+            </div>
+          </div>
+          <div class="msg-body">
+            <div class="loader text large"></div>
+            <div class="loader text large"></div>
+            <div class="loader text medium"></div>
+            <div class="actions">
+              <ul class="main">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+              <ul class="secondary">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- End .message -->
+      <div class="message">
+          <div class="msg-header">
+            <div class="loader profile"></div>
+            <div class="msg-info">
+              <div class="loader text medium"></div>
+              <div class="loader text medium"></div>
+            </div>
+          </div>
+          <div class="msg-body">
+            <div class="loader text large"></div>
+            <div class="loader text large"></div>
+            <div class="loader text medium"></div>
+            <div class="actions">
+              <ul class="main">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+              <ul class="secondary">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- End .message -->
+      <div class="message">
+          <div class="msg-header">
+            <div class="loader profile"></div>
+            <div class="msg-info">
+              <div class="loader text medium"></div>
+              <div class="loader text medium"></div>
+            </div>
+          </div>
+          <div class="msg-body">
+            <div class="loader text large"></div>
+            <div class="loader text large"></div>
+            <div class="loader text medium"></div>
+            <div class="actions">
+              <ul class="main">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+              <ul class="secondary">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- End .message -->
+      <div class="message">
+          <div class="msg-header">
+            <div class="loader profile"></div>
+            <div class="msg-info">
+              <div class="loader text medium"></div>
+              <div class="loader text medium"></div>
+            </div>
+          </div>
+          <div class="msg-body">
+            <div class="loader text large"></div>
+            <div class="loader text large"></div>
+            <div class="loader text medium"></div>
+            <div class="actions">
+              <ul class="main">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+              <ul class="secondary">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- End .message -->
+      <div class="message">
+          <div class="msg-header">
+            <div class="loader profile"></div>
+            <div class="msg-info">
+              <div class="loader text medium"></div>
+              <div class="loader text medium"></div>
+            </div>
+          </div>
+          <div class="msg-body">
+            <div class="loader text large"></div>
+            <div class="loader text large"></div>
+            <div class="loader text medium"></div>
+            <div class="actions">
+              <ul class="main">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+              <ul class="secondary">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- End .message -->
+      <div class="message">
+          <div class="msg-header">
+            <div class="loader profile"></div>
+            <div class="msg-info">
+              <div class="loader text medium"></div>
+              <div class="loader text medium"></div>
+            </div>
+          </div>
+          <div class="msg-body">
+            <div class="loader text large"></div>
+            <div class="loader text large"></div>
+            <div class="loader text medium"></div>
+            <div class="actions">
+              <ul class="main">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+              <ul class="secondary">
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+                <li class="loader icon"></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- End .message -->
+        
+    </div><!-- End .content -->
+
+    <div class="filters" id="filters">
+      <div class="filters-head" id="filtersBtn">
+        <div>
+          <i class="fas fa-bars icon"></i>
+          <span class="filter-title hidden">Inbox Filters</span>
+        </div>
+        <i class="fas fa-arrow-right filter-title-arrow"></i>
+      </div>
+
+
+      <div class="options hidden">
+        <div class="options-header">
+          <h3><i class="fab fa-twitter-square twitter"></i> Twitter</h3>
+          <i class="fas fa-angle-up carrot"></i>
+        </div>
+        <div class="options-group">
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Profiles</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> @mysproutcoffee</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> @bossproutcoffee</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> @chisproutcoffee</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> @nycsproutcoffee</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> @sfsproutcoffee</li>
+          </ul>
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Message Type</li>
+            <li><input type="checkbox" /> Mentions</li>
+            <li><input type="checkbox" /> Direct Messages</li>
+            <li><input type="checkbox" /> Retweets</li>
+            <li><input type="checkbox" /> Retweets with Comment</li>
+          </ul>
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Brand Keywords</li>
+            <li><input type="checkbox" /> Pumpkin Spice</li>
+            <li><input type="checkbox" /> Chicago Coffee</li>
+            <li><input type="checkbox" /> "Sprout Coffee Chicago"</li>
+          </ul>
+        </div>
+
+        <div class="options-header">
+          <h3><i class="fab fa-facebook facebook"></i> Facebook</h3>
+          <i class="fas fa-angle-up carrot"></i>
+        </div>
+        <div class="options-group">
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Pages</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> Sprout Coffee Co.</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> sprout Coffee Co. Chi.</li>
+          </ul>
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Message Type</li>
+            <li><input type="checkbox" /> Wall Posts</li>
+            <li><input type="checkbox" /> Private Messages</li>
+            <li><input type="checkbox" /> Comments</li>
+            <li><input type="checkbox" /> Ad Comments</li>
+            <li><input type="checkbox" /> Reviews</li>
+          </ul>
+        </div>
+        
+        <div class="options-header">
+          <h3><i class="fab fa-instagram instagram"></i> Instagram</h3>
+          <i class="fas fa-angle-up carrot"></i>
+        </div>
+        <div class="options-group">
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Profiles</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> mysproutcoffee</li>
+            <li><input type="checkbox" /><i class="fas fa-user-circle"></i> chisproutcoffee</li>
+          </ul>
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Message Type</li>
+            <li><input type="checkbox" /> Comments</li>
+            <li><input type="checkbox" /> Ad Comments</li>
+          </ul>
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Hashtags</li>
+            <li><input type="checkbox" /> #psl</li>
+            <li><input type="checkbox" /> #pumpkinspice</li>
+            <li><input type="checkbox" /> #chicagocoffee</li>
+          </ul>
+          <ul class="options-list">
+            <li class="options-title"><input type="checkbox" /> Locations</li>
+            <li><input type="checkbox" /> Lakeview</li>
+            <li><input type="checkbox" /> Logan Square</li>
+          </ul>
+        </div>
+
+      </div>
+      
+
+
+
+      <ul class="page-actions">
+        <li class="links-full hidden"><a href="#">Save Inbox View as...</a></li>
+        <li class="links-icon shown" id="poo"><i class="fas fa-ellipsis-h icon-button"></i></li>
+        <li><a href="#" class="primary-button"><i class="fas fa-arrow-right rotate-45"></i><span id="shareBtn" class='share-text'></span></a></li>
+      </ul>
+    </div><!-- End .filters -->
+  </div><!-- End .layout -->
+
+  <!-- Add Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
